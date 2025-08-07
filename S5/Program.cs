@@ -45,11 +45,61 @@ namespace S5
             #endregion
             #region Example 02
 
-            FullTimeEmployee fullTimeEmployee = new FullTimeEmployee(10, "Ahmed", 25, 2000);
-            ProccessEmployee(fullTimeEmployee);
+            //FullTimeEmployee fullTimeEmployee = new FullTimeEmployee(10, "Ahmed", 25, 2000);
+            //ProccessEmployee(fullTimeEmployee);
 
-            PartTimeEmployee partTimeEmployee = new PartTimeEmployee(10,"Ahmed",25,2,5);
-            ProccessEmployee(partTimeEmployee);
+            //PartTimeEmployee partTimeEmployee = new PartTimeEmployee(10,"Ahmed",25,2,5);
+            //ProccessEmployee(partTimeEmployee);
+
+            #endregion
+            #region Example 03
+            //TypeC typeC = new TypeC(1, 2, 3);
+            //typeC.A = 10;
+            //typeC.B = 20;
+            //typeC.C = 30;
+            //typeC.MyFun01();
+            //typeC.MyFun02();
+
+            //TypeA typeA = new TypeC(1,2,3);
+            //typeA.A = 10;
+            ////typeA.B = 10;
+            ////typeA.C = 10;
+
+            //typeA.MyFun01();
+            //typeA.MyFun02();
+
+            //TypeB typeB = new TypeC(1,2,3);
+            //typeB.A = 10;
+            //typeB.B = 10;
+            ////typeB.C = 10; // InVALID
+
+            //typeB.MyFun01();
+            //typeB.MyFun02();
+
+            //TypeA typeA = new TypeD(1, 2, 3, 4);
+            //typeA.A = 10;
+            //typeA.MyFun01();
+            //typeA.MyFun02();
+
+            //TypeB typeB = new TypeD(1, 2, 3, 4);
+            //typeB.MyFun01();
+            //typeB.MyFun02();
+
+            //TypeC typeC = new TypeD(1, 2, 3, 4);
+            //typeC.MyFun01();
+            //typeC.MyFun02();
+
+            //TypeA typeA = new TypeE(1, 2, 3, 4, 5);
+            //TypeB typeB = new TypeE(1, 2, 3, 4, 5);
+            //TypeC typeC = new TypeE(1, 2, 3, 4, 5);
+            //TypeD typeD = new TypeE(1, 2, 3, 4, 5);
+
+            //typeA.MyFun02();
+            //typeB.MyFun02();
+            //typeC.MyFun02();
+            //typeD.MyFun02();
+
+
 
             #endregion
             #endregion
