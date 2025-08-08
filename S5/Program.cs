@@ -1,5 +1,7 @@
 ﻿using S5.Binding;
+using S5.Interface;
 using S5.Overriding;
+using Type = S5.Interface.Type;
 
 namespace S5
 {
@@ -103,6 +105,24 @@ namespace S5
 
             #endregion
             #endregion
+
+            #region Interface
+
+            //IType type = new Type();
+
+            //type.MyProperty = 1;
+
+            //type.MyMethod();
+
+            //type.Print();
+
+            Type type = new Type();
+
+            type.MyProperty = 5;
+            type.MyMethod();
+            //type.Print();
+            #endregion
+
         }
     }
 }
