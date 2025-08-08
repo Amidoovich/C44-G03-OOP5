@@ -146,14 +146,27 @@ namespace S5
             #endregion
             #region Example 02
 
-            TypeA typeA = new TypeA();
-            PrintFiveNumbersFromSeries(typeA);
+            //TypeA typeA = new TypeA();
+            //PrintFiveNumbersFromSeries(typeA);
 
-            TypeB typeB = new TypeB();
-            PrintFiveNumbersFromSeries(typeB);
+            //TypeB typeB = new TypeB();
+            //PrintFiveNumbersFromSeries(typeB);
 
-            TypeC typeC = new TypeC();
-            //PrintFiveNumbersFromSeries(typeC);
+            //TypeC typeC = new TypeC();
+            ////PrintFiveNumbersFromSeries(typeC);
+            #endregion
+            #region Example 03
+            //Car car = new Car();
+            //car.Backward();
+            //car.Right();
+            //car.Forward();
+            //car.Left();
+            //car.Speed = 200;
+
+            //IMoveOnAir airPlane = new AirPlane();
+            ////airPlane.Speed = 200;
+            //airPlane.Backward();
+ 
             #endregion
             #endregion
 
