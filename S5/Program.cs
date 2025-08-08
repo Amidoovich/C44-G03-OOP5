@@ -2,6 +2,9 @@
 using S5.Interface;
 using S5.Overriding;
 using Type = S5.Interface.Type;
+using TypeA = S5.Interface.TypeA;
+using TypeB = S5.Interface.TypeB;
+using TypeC = S5.Interface.TypeC;
 
 namespace S5
 {
@@ -24,6 +27,24 @@ namespace S5
         //        employee.GetEmployeeData();
         //    }
         //}
+
+        static void PrintFiveNumbersFromSeries(ISeries series)
+        {
+            if (series is not null) 
+            {
+                for(int i = 0; i < 5; i++)
+                {
+                    Console.WriteLine(series.Current);
+                    series.GetNext();
+                }
+                series.Reset();
+                   
+            }
+            else
+            {
+                return;
+            }
+        }
         static void Main(string[] args)
         {
             #region Binding
@@ -108,6 +129,7 @@ namespace S5
 
             #region Interface
 
+            #region Example 01
             //IType type = new Type();
 
             //type.MyProperty = 1;
@@ -116,12 +138,26 @@ namespace S5
 
             //type.Print();
 
-            Type type = new Type();
+            //Type type = new Type();
 
-            type.MyProperty = 5;
-            type.MyMethod();
-            //type.Print();
+            //type.MyProperty = 5;
+            //type.MyMethod();
+            ////type.Print(); 
             #endregion
+            #region Example 02
+
+            TypeA typeA = new TypeA();
+            PrintFiveNumbersFromSeries(typeA);
+
+            TypeB typeB = new TypeB();
+            PrintFiveNumbersFromSeries(typeB);
+
+            TypeC typeC = new TypeC();
+            //PrintFiveNumbersFromSeries(typeC);
+            #endregion
+            #endregion
+
+
 
         }
     }
