@@ -19,7 +19,7 @@ namespace S5
             //rectangle.DisplayShapeInfo();
             #endregion
             #region Q2
-            IAuthenticationService authenticationService = new BasicAuthenticationService();
+            //IAuthenticationService authenticationService = new BasicAuthenticationService();
 
             //do
             //{
@@ -72,6 +72,16 @@ namespace S5
             //    }    
             //}
             //while (true);
+            #endregion
+            #region Q3
+            //EmailNotificationService emailNotificationService = new EmailNotificationService();
+            //emailNotificationService.SendNotification("Ahmed","Hello My Friend");
+            //Console.WriteLine();
+            //SmsNotificationServices smsNotificationServices = new SmsNotificationServices();
+            //smsNotificationServices.SendNotification("Ahmed","Hello My Friend");
+            //Console.WriteLine();
+            //PushNotificationService pushNotificationService = new PushNotificationService();
+            //pushNotificationService.SendNotification("Ahmed", "Hello My Friend");    
             #endregion
         }
     }
